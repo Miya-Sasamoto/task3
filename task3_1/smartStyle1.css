@@ -1,0 +1,33 @@
+@media screen and (min-width:768px){
+
+  .wrapper{
+    width:400px;
+  }
+}
+
+
+@media screen and  (max-width:767px){
+
+  .wrapper{
+    width:250px;
+  }
+
+  .box3{
+    width:100px;
+  }
+}
+
+@media screen and (max-width:479px){
+  .wrapper{
+    width:150px;
+    margin:auto;
+  }
+
+  .header h1{
+    padding:0;
+  }
+
+  .box3{
+    width:150px;
+  }
+}
