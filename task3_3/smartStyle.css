@@ -1,0 +1,45 @@
+@media screen and (min-width:479px){
+
+  .wrapper{
+    width:400px;
+  }
+}
+
+@media screen and (max-width:479px){
+  .wrapper{
+    width:200px;
+    margin:auto;
+  }
+
+  .box1{
+    height:200px;
+  }
+
+
+.box-pink-parente{
+  position:static;
+  display:block;
+  text-align: center;
+  /* vertical-align: middle; */
+  margin:auto;
+  top:20px;
+  /* margin-left:auto;
+  margin-right:auto; */
+  height:160px;
+  width:60px;
+}
+
+.box2{
+  width:100%;
+  height:50px;
+}
+.box-orange{
+  position:relative;
+  top:-3px;
+  left:0px;
+}
+
+.box3{
+  width:100%;
+}
+}
